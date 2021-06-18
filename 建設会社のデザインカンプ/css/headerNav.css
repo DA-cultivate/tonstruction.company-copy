@@ -1,0 +1,70 @@
+/* --- ヘッダーナビのレスポンス ---*/
+
+/* スマホデバイス */
+.open,
+.close {
+    display: none;
+}
+input[type="checkbox"] {
+    position: absolute;
+    left: -50vw;
+}
+aside {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    transition: all 0.2s;
+    left: -1500px;
+    top: 0;
+    background: rgba(255,255,255,0.7);
+}
+.padNav-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+.close {
+    padding: 30px;
+    text-align: end;
+}
+.padNav-list ul {
+    list-style: none;
+    margin: 60px 0;
+    padding: 0;
+}
+.padNav-list li {
+    padding: 30px 0;
+    text-align: center;
+}
+.padNav-list a {
+    font-size: 1.8em;
+    color: #000000;
+}
+.padNav-list a:hover {
+    transition: 0.2;
+    opacity: 0.7;
+    text-decoration: none;
+    color: #000000;
+}
+
+@media (max-width: 960px){
+    /* pc */
+    .pcNav-wrap {
+        display: none;
+    }
+    /* スマホデバイス */
+    .open,
+    .close {
+        display: block;
+    }
+    .open {
+        position: absolute;
+        right: 6%;
+        top: 6%;
+    }
+    input[type="checkbox"]:checked ~ aside {
+        left: 0;
+    }
+}

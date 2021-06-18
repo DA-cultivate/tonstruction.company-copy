@@ -1,0 +1,254 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+}
+.wrap {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* --- メインコンテンツ --- */
+/* ヘッダー */
+.header-wrap {
+    background: url(../src/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    position: relative;
+}
+.header {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.titleImg {
+    width: 140px;
+    padding: 0;
+    margin: 0;
+}
+.header a:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.headerNav {
+    width: 565px;
+    font-size: 1.12em;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0 40px 0;
+}
+.pcNav-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-link {
+    color: black;
+    font-weight: 100;
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+}
+.nav-link:hover {
+    color: black;
+    transition: 0.3s;
+    opacity: 0.3;
+}
+/* メインタイトル */
+.mainTitle-wrap {
+    width: 100%;
+    height: 73%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainTitle {
+    font-size: 3em;
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+}
+
+/* --- コンテンツ --- */
+.content-wrap {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.content-title {
+    font-size: 2.4em;
+    padding-bottom: 60px;
+    text-align: center;
+}
+/*　お知らせ */
+.notice-wrap {
+    width: 68%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 90px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+}
+.notice-box {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+.notice-item {
+    padding: 30px 0;
+    border-bottom: solid 1px #000000;
+}
+.date {
+    font-size: 1.2em;
+    color: #000000;
+}
+.notice {
+    font-size: 0.7em;
+    color: #000000;
+    border: solid 1px #000000;
+    padding: 8px 10px;
+    margin: 0 25px 0 25px;
+}
+.write {
+    font-size: 1.1em;
+    color: #000000;
+}
+.notice-item a:hover {
+    text-decoration: none;
+    transition: 0.3s;
+    opacity: 0.3;
+}
+/* 施工事例 */
+.case-wrap {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+}
+.case-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.case {
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+}
+.case img {
+    width: 430px;
+    margin-bottom: 30px;
+}
+.case h2 {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+}
+.case p {
+    text-align: center;
+    font-size: 0.86em;
+    padding: 0;
+    margin: 13px;
+}
+.case a {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    border-bottom: solid 1px #000000;
+    border-top: solid 1px #000000;
+    padding: 10px 0;
+    color: gray;
+}
+.case a:hover {
+    color: gray;
+    text-decoration: none;
+    transition: 0.3s;
+    opacity: 0.3;
+}
+.caseList-box {
+    text-align: center;
+    padding: 60px 0;
+}
+.caseList {
+    font-size: 1.3em;
+    border: solid 1px #000000;
+    padding: 13px 38px;
+    color: gray;
+}
+.caseList:hover {
+    color: gray;
+    text-decoration: none;
+    transition: 0.3s;
+    opacity: 0.4;
+}
+
+/* --- フッダーボックス --- */
+footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+}
+/* フッターメニュー */
+.footerMenu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.footerMenu img {
+    width: 100%;
+}
+.footerMenu a:hover {
+    opacity: 0.5;
+    transition-duration: 0.3s;
+}
+/* フッター */
+.footerMain-wrap{
+    width: 100%;
+    background-color: #000000;
+}
+.footerMain {
+    width: 1100px;
+    padding: 30px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerNav {
+    width: 550px;
+    display: flex;
+    justify-content: space-around;
+}
+.footerMain img {
+    width: 95px;
+}
+.footerMain img:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.nav-a {
+    font-size: 1.15em;
+    color: #ffffff;
+}
+.nav-a:hover {
+    color: #ffffff;
+    opacity: 0.5;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.Copyright {
+    color: #ffffff;
+    font-size: 0.75em;
+    font-weight: 400;
+    text-align: center;
+    margin: 30px 0 0 0;
+    padding: 5px 0;
+}

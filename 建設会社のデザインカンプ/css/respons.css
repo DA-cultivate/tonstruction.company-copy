@@ -1,0 +1,108 @@
+/* ----- 960px以下 ----- */
+@media (max-width: 960px){
+    /* ヘッダー */
+    .header-wrap {
+        height: 50vh;
+    }
+    .header {
+        width: 100%;
+        padding: 15px 20px;
+    }
+    .titleImg {
+        width: 95px;
+        padding: 0;
+        margin: 0;
+    }
+    /* メインタイトル */
+    .mainTitle-wrap {
+        width: 100%;
+        height: 82%;
+    }
+    .mainTitle {
+        font-size: 1.5em;
+    }
+    /* --- コンテンツ --- */
+    .content-wrap {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .content-title {
+        font-size: 1.6em;
+        padding: 30px 0;
+        margin: 0;
+        text-align: center;
+    }
+    /* お知らせ */
+    .notice-wrap {
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 10px 0;
+    }
+    .notice-box {
+        padding: 0;
+        margin: 0;
+    }
+    .notice-item {
+        line-height: 2.5em;
+        padding: 20px 0;
+    }
+    .date {
+        font-size: 0.85em;
+    }
+    .notice {
+        padding: 5px 8px;
+    }
+    .write {
+        display: flex;
+        align-items: flex-end;
+    }
+    /* 施工事例 */
+    .case-wrap {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 0 80px 0;
+        font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+    }
+    .case-box {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .case {
+        width: 100%;
+        padding: 50px 0;
+    }
+    .caseList-box {
+        padding: 0;
+    }
+    .case img {
+        width: 100%;
+    }
+    /* ---- フッター ---- */
+    .footerMain {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .footerMenu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footerNav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-li {
+        padding: 13px 0;
+    }
+    .footerMain img {
+        margin-top: 30px;
+    }
+    .Copyright {
+        margin: 0;
+        padding-bottom: 8px;
+    }
+}
